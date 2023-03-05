@@ -45,7 +45,7 @@ string QuestionThreeRetry = "What is (9 + 9)?";
 
 string QuestionOne = "Question 1: ";
 string QuestionTwo = "Question 2: ";
-
+string QuestionThree = "Question 3: ";
 
 
 
@@ -96,7 +96,7 @@ cout << QuestionTwoRetry << endl;
 cin >> QuestionTwoResponse;
 }
 
-cout << "What is (9 + 9)" << "?" << endl;
+cout << QuestionThree << "What is (9 + 9)" << "?" << endl;
 cin >> QuestionThreeResponse;
 
 QuestionThreeCorrectAnswer = 18;
